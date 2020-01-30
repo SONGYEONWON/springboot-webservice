@@ -18,9 +18,13 @@ public abstract class BaseTimeEntity {
     //Entity 생성시 시간 자동저장
     @CreatedDate
     private LocalDateTime createdDate;
+<<<<<<< HEAD
     private String testVar1;
     private String testVar2;
     private String testVar3;
+=======
+    private String testCherry;
+>>>>>>> f57ade5... test
 
     //마지막 수정시간 자동저장
     @LastModifiedDate
